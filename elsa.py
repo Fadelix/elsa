@@ -1,7 +1,7 @@
 
 # Elsa.py
-# By Electra WhiteHat Techteam
-# m.fadli@sabretn.co.id
+# 
+# mfadly.n@gmail.com
 #
 # Elsa.py is an IPS/IDS alert system, it work with Mod Security and Owasp CRS
 #
