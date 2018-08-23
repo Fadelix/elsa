@@ -40,7 +40,7 @@ def main():
                 msg['To'] = toaddr
                 msg['Subject'] = "Electra Security Alarm System (ELSA) v1"
 
-                body = "Hallo sysadmin electra, mas faris & mbak ennitan, saat ini sistem kami menangkap aktivitas yang mencurigakan diserver electra nih, coba dicek lognya dong (This Email Alert was generated automatically with Elsa.py By Electra Techteam-fdlx)"
+                body = "Hallo sysadmin, modsecurity detect some suspicious activity on server, please check this log (This Email Alert was generated automatically with Elsa.py By fadelix)"
                 msg.attach(MIMEText(body, 'plain'))
 
                 t = datetime.datetime.now()
